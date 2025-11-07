@@ -4521,185 +4521,185 @@ static const X86CPUDefinition builtin_x86_defs[] = {
                     { /* end of list */ }
                 }
             },
-        /* =======================
-         * Custom consumer variants
-         * ======================= */
-        {
-            .version = 100,
-            .alias = "Skylake-Server-6700K",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 101,
-            .alias = "Skylake-Server-6700",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 102,
-            .alias = "Skylake-Server-6700T",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i7-6700T CPU @ 2.80GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 103,
-            .alias = "Skylake-Server-6600K",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 104,
-            .alias = "Skylake-Server-6600",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 105,
-            .alias = "Skylake-Server-6500",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 106,
-            .alias = "Skylake-Server-6500T",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i5-6500T CPU @ 2.50GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 107,
-            .alias = "Skylake-Server-6400",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 108,
-            .alias = "Skylake-Server-6400T",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i5-6400T CPU @ 2.20GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 109,
-            .alias = "Skylake-Server-6350",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i3-6350 CPU @ 3.90GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 110,
-            .alias = "Skylake-Server-6300",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i3-6300 CPU @ 3.80GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 111,
-            .alias = "Skylake-Server-6100",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 112,
-            .alias = "Skylake-Server-6100T",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Core(TM) i3-6100T CPU @ 3.20GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 113,
-            .alias = "Skylake-Server-G4500",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Pentium(R) G4500 CPU @ 3.50GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 114,
-            .alias = "Skylake-Server-G4400",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Pentium(R) G4400 CPU @ 3.30GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 115,
-            .alias = "Skylake-Server-G4400T",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Pentium(R) G4400T CPU @ 2.90GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 116,
-            .alias = "Skylake-Server-G3900",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Celeron(R) G3900 CPU @ 2.80GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 117,
-            .alias = "Skylake-Server-G3900T",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Celeron(R) G3900T CPU @ 2.60GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 118,
-            .alias = "Skylake-Server-G3920",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Celeron(R) G3920 CPU @ 2.90GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 119,
-            .alias = "Skylake-Server-G4400TE",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Pentium(R) G4400TE CPU @ 2.40GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 120,
-            .alias = "Skylake-Server-G3900E",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Celeron(R) G3900E CPU @ 2.40GHz" },
-                { /* end of list */ }
-            }
-        },
-        {
-            .version = 121,
-            .alias = "Skylake-Server-G3902E",
-            .props = (PropValue[]) {
-                { "model-id", "Intel(R) Celeron(R) G3902E CPU @ 1.60GHz" },
-                { /* end of list */ }
-            }
-        },
+	        /* =======================
+	         * Custom consumer variants
+	         * ======================= */
+	        {
+	            .version = 100,
+	            .alias = "Skylake-Server-6700K",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 101,
+	            .alias = "Skylake-Server-6700",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 102,
+	            .alias = "Skylake-Server-6700T",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i7-6700T CPU @ 2.80GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 103,
+	            .alias = "Skylake-Server-6600K",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 104,
+	            .alias = "Skylake-Server-6600",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 105,
+	            .alias = "Skylake-Server-6500",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 106,
+	            .alias = "Skylake-Server-6500T",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i5-6500T CPU @ 2.50GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 107,
+	            .alias = "Skylake-Server-6400",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 108,
+	            .alias = "Skylake-Server-6400T",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i5-6400T CPU @ 2.20GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 109,
+	            .alias = "Skylake-Server-6350",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i3-6350 CPU @ 3.90GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 110,
+	            .alias = "Skylake-Server-6300",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i3-6300 CPU @ 3.80GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 111,
+	            .alias = "Skylake-Server-6100",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 112,
+	            .alias = "Skylake-Server-6100T",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Core(TM) i3-6100T CPU @ 3.20GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 113,
+	            .alias = "Skylake-Server-G4500",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Pentium(R) G4500 CPU @ 3.50GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 114,
+	            .alias = "Skylake-Server-G4400",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Pentium(R) G4400 CPU @ 3.30GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 115,
+	            .alias = "Skylake-Server-G4400T",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Pentium(R) G4400T CPU @ 2.90GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 116,
+	            .alias = "Skylake-Server-G3900",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Celeron(R) G3900 CPU @ 2.80GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 117,
+	            .alias = "Skylake-Server-G3900T",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Celeron(R) G3900T CPU @ 2.60GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 118,
+	            .alias = "Skylake-Server-G3920",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Celeron(R) G3920 CPU @ 2.90GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 119,
+	            .alias = "Skylake-Server-G4400TE",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Pentium(R) G4400TE CPU @ 2.40GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 120,
+	            .alias = "Skylake-Server-G3900E",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Celeron(R) G3900E CPU @ 2.40GHz" },
+	                { /* end of list */ }
+	            }
+	        },
+	        {
+	            .version = 121,
+	            .alias = "Skylake-Server-G3902E",
+	            .props = (PropValue[]) {
+	                { "model-id", "Intel(R) Celeron(R) G3902E CPU @ 1.60GHz" },
+	                { /* end of list */ }
+	            }
+	        },
             { /* end of list */ }
         }
     },
